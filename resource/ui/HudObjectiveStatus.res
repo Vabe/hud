@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-74"
-		"ypos"				"435"
+		"ypos"				"445"
 		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"32"
@@ -23,7 +23,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura9"
+			"font"			"Futura7"
 			"fgcolor"		"OmpText"
 			"xpos"			"52"
 			"ypos"			"0"

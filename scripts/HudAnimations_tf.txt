@@ -458,11 +458,14 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"OmpMedicCharge1"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"OmpMedicCharge2"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"84 255 159 255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"0 255 0 255"		Linear 0.125 0.1
+	Animate	ChargeLabel 	FgColor		"0 128 0 255"			Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"OmpMedicCharge1"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"OmpMedicCharge2"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"84 255 159 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"0 255 0 255"		Linear 0.124 0.1
+	Animate	ChargeMeter 	FgColor		"0 128 0 255"			Linear 0.3 0.4
+	
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -478,7 +481,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"OmpAmmoClip"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
 }
 
@@ -764,6 +767,10 @@ event DamagedPlayer
 {
 	Animate	winzcross		FgColor "255 0 0 255"		Accel 0.0 0.0
 	Animate	winzcross		FgColor "255 255 255 255"		Accel 0.2 0.0
+
+	Animate fogCrosshair 		FgColor "255 0 0 255"		Accel 0.0 0.0
+	Animate fogCrosshair		FgColor "255 255 255 255"		Accel 0.2 0.0
+
 
 	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 0 255"		Accel 0.0 0.0
 	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 255 255"		Accel 0.2 0.0

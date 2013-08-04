@@ -41,8 +41,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"OmpDarkBG"
-		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 120"
+		"fgcolor_override"	"0 255 255 127"
 		
 		"xpos_minmode"			"50"
 		"wide_minmode"			"100"

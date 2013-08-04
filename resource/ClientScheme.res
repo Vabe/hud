@@ -448,7 +448,7 @@ Scheme
 	{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace
+		// if a font fails to load then the subsequent fonts will replace			
 		"Default"
 		{
 			"1"
@@ -2480,6 +2480,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavyOutline14"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"FuturaHeavy20"
 		{
 			"1"
@@ -3379,6 +3390,42 @@ Scheme
 				"tall"		"64"
 				"additive"	"0"
 				"antialias" "0"
+			}
+		}
+		"fogCrosshair"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28" //28 default
+				"additive"	"0"
+				"antialias" 	"0"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+		"fogCrosshairPlain"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"0"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+		"fogCrosshairSmooth"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
 			}
 		}
 	}
@@ -4898,6 +4945,12 @@ Scheme
 		{
 			"font" "resource/Blocks.ttf"
 			"name" "Blocks"
+		}
+		"12" 
+		{
+			"font" "resource/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
 		}
 	}
 }

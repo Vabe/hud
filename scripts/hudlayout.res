@@ -38,6 +38,51 @@
 		"textAlignment"	"center"
 		"fgcolor" 		"255 255 255 255"
 	}
+	
+	fogCrosshair
+	{
+		"controlname"	"CExLabel"
+		"fieldname"	"fogCrosshair"
+		
+		"visible"	"0"
+		"enabled"	"0"
+
+		"xpos"		"1"
+		"ypos"		"6"
+		"zpos"		"2"
+		
+		"wide"		"f1"
+		"tall"		"475"
+
+		"font"		"fogCrosshairSmooth"
+		//
+		// Choose what kind
+		//
+		// "fogCrosshair"         - Pixelated and outlined
+		// "fogCrosshairPlain"    - Pixelated and not outlined
+		// "fogCrosshairSmooth"   - Antialiased, not outlined
+		
+
+		"labeltext"	"9"
+		//
+		// Choose your crosshair
+		// 
+		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// THERE ARE NO FIXED NUMBERS FOR THIS
+
+		"textAlignment"	"center"
+		
+		"fgcolor"	"255 255 255 255"
+		//
+		// Crosshair color
+		// 
+		// If you change this, remember to change the same value in HudAnimations_tf.txt
+		// Otherwise the crosshair will change back to the default white color after
+		// flashing upon giving damage.
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -304,8 +349,8 @@
 		"priority"	"40"
 		"priority_lodef" "35"
 		
-		"x_offset" "20"
-		"y_offset" "20"
+		"x_offset" "10"
+		"y_offset" "0"
 	}
 	
 	CSecondaryTargetID
@@ -387,7 +432,7 @@
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
-		"ypos"	"440"
+		"ypos"	"450"
 		"wide"	"120"
 		"tall"  "40"
 		"visible" "1"
@@ -826,13 +871,13 @@
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
 		"ypos"					"410"
-		"wide"					"f0"
+		"wide"					"0"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"2"	// distance between the icons (including their backgrounds)
-		"separator_height"		"2"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
+		"separator_width"		"-1"	// distance between the icons (including their backgrounds)
+		"separator_height"		"-1"
+		"height_offset"			"1"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]
 	}
 
