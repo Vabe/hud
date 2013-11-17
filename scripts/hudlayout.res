@@ -1353,7 +1353,7 @@
 	NotificationQueuePanel
 	{
 		"fieldName"		"NotificationQueuePanel"
-		"visible"		"0"
+		"visible"		"1"
 		"enable"		"1"
 		"xpos"			"r155"
 		"ypos"			"r90"

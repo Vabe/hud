@@ -310,7 +310,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -323,8 +323,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1037,7 +1037,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1050,8 +1050,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1098,7 +1098,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1111,8 +1111,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1159,7 +1159,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1172,8 +1172,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1220,7 +1220,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1233,8 +1233,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1295,7 +1295,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1308,8 +1308,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1530,7 +1530,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1543,8 +1543,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1592,7 +1592,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1605,8 +1605,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1716,7 +1716,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1729,8 +1729,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1778,7 +1778,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1791,8 +1791,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1840,7 +1840,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1853,8 +1853,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1901,7 +1901,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1914,8 +1914,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1962,7 +1962,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1975,8 +1975,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2024,7 +2024,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Futura11"
+			"font"			"Default"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2037,8 +2037,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "125 225 30 255"
-			"depressedFgColor_override" "125 225 30 255"
+			"armedFgColor_override" "0 191 255 255"
+			"depressedFgColor_override" "0 191 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2119,7 +2119,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"125 125 125 255"
-		"image_armedcolor"	"125 225 30 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2166,7 +2166,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"125 125 125 255"
-		"image_armedcolor"	"125 225 30 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2213,7 +2213,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"125 125 125 255"
-		"image_armedcolor"	"125 225 30 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2260,7 +2260,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"125 125 125 255"
-		"image_armedcolor"	"125 225 30 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2307,7 +2307,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"125 125 125 255"
-		"image_armedcolor"	"125 225 30 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2339,7 +2339,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Advanced"
-		"font"			"Futura11"
+		"font"			"Default"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -2355,8 +2355,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "0 191 255 255"
+		"depressedFgColor_override" "0 191 255 255"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2391,7 +2391,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Options"
-		"font"			"Futura11"
+		"font"			"Default"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
@@ -2408,8 +2408,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "0 191 255 255"
+		"depressedFgColor_override" "0 191 255 255"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2443,7 +2443,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Quit"
-		"font"			"Futura11"
+		"font"			"Default"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
@@ -2460,8 +2460,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "0 191 255 255"
+		"depressedFgColor_override" "0 191 255 255"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2495,7 +2495,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Disconnect"
-		"font"			"Futura11"
+		"font"			"Default"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
@@ -2511,8 +2511,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "0 191 255 255"
+		"depressedFgColor_override" "0 191 255 255"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"

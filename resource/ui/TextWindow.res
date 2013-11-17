@@ -45,7 +45,7 @@
 		"xpos"		"-10"
 		"ypos"		"-10"
 		"zpos"		"-100"
-		"wide"		"10000"
+		"wide"		"700"
 		"tall"		"500"
 		"fillcolor"		"20 20 20 195"
 	}
@@ -75,8 +75,8 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"TextMessage"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"TFTextMessage"
