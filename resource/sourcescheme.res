@@ -114,9 +114,9 @@ Scheme
 		
 		Menu.TextInset					"6"
 		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
+		Menu.BgColor			"160 160 160 64"
 		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
+		Menu.ArmedBgColor		"0 191 255 255"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"TFDarkBrown"
@@ -137,7 +137,7 @@ Scheme
 		
 		TextEntry.TextColor			        "MilkWhite"
 		TextEntry.DisabledTextColor	        "DarkerMilkWhite"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		TextEntry.SelectedBgColor	        "0 191 255 255"
 
 		PropertySheet.TextColor			"62 62 62 255"
 		PropertySheet.SelectedTextColor	"32 32 32 255"

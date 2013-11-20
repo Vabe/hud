@@ -539,7 +539,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"Futura11"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"9999"
@@ -728,7 +728,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				"font"			"Futura9"
+				"font"			"Futura11"
 			}
 			"Score"
 			{
@@ -808,7 +808,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				"font"			"Futura9"
+				"font"			"Futura11"
 			}
 			"Score"
 			{

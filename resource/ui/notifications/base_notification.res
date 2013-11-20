@@ -11,7 +11,7 @@
 		"tall"			"44"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/score_panel_blue_bg"
 		"scaleImage"	"1"

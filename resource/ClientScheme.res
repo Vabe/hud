@@ -57,6 +57,17 @@ Scheme
 		"OmpChargeAmount"	"30 225 225 255"
 		"OmpRespawnTime"	"255 30 255 255"
 		
+		//Changes the colors of the bars on the "Stats" tab
+		
+			"StatBar1"						"15 255 255 128"
+			"StatBar2"						"15 225 225 128"
+			"StatBar3"						"15 195 195 128"
+			"StatBar4"						"15 165 165 128"
+			"StatBar5"						"15 135 135 128"
+			"StatBar6"						"15 105 105 128"
+			"StatBar7"						"15 85 85 128"
+			"StatBar8"						"15 65 65 128"
+			"StatBar9"						"15 45 45 128"
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -234,11 +245,11 @@ Scheme
 		Button.TextColor				"TanLight"
 		Button.BgColor					"TanDark"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"0 191 255 255"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.SelectedBgColor			"0 191 255 255"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"0 191 255 255"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -270,12 +281,12 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
+		FrameTitleBar.TextColor			"0 191 255 255"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
+		FrameTitleBar.DisabledTextColor	"0 191 255 255"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Orange"
+		GraphPanel.FgColor				"0 191 255 255"
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
@@ -286,12 +297,12 @@ Scheme
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"0 191 255 255"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"0 191 255 255"
 
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"TransparentBlack"
@@ -299,7 +310,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"0 191 255 255"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -316,12 +327,12 @@ Scheme
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor			"Orange"
-		PropertySheet.SelectedTextColor	"Orange"
+		PropertySheet.TextColor			"0 191 255 255"
+		PropertySheet.SelectedTextColor	"0 191 255 255"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor			"0 191 255 255"
+		RadioButton.SelectedTextColor	"0 191 255 255"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -341,8 +352,8 @@ Scheme
 		SectionedListPanel.HeaderTextColor	"Orange"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
+		SectionedListPanel.TextColor		"0 191 255 255"
+		SectionedListPanel.BrightTextColor	"0 191 255 255"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
@@ -365,7 +376,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor	"0 191 255 255"
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -454,7 +465,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -465,7 +476,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -473,7 +484,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -483,7 +494,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -491,7 +502,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -499,7 +510,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"11"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -507,7 +518,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -515,7 +526,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -523,7 +534,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -535,7 +546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -543,7 +554,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -551,7 +562,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -559,7 +570,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -567,7 +578,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -578,7 +589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -586,7 +597,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
@@ -594,7 +605,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -602,7 +613,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -610,7 +621,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -618,14 +629,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
 			}
 			"7"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -699,35 +710,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"44"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"48"
 				"additive"	"0"
 				"antialias" "1"
@@ -737,7 +748,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -748,7 +759,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -759,7 +770,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -769,7 +780,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -779,7 +790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -789,7 +800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -799,7 +810,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -809,7 +820,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -819,7 +830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -829,7 +840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -839,7 +850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -849,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -859,7 +870,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -869,7 +880,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -879,7 +890,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -890,7 +901,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -900,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -911,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -921,7 +932,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -931,7 +942,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -941,7 +952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -951,7 +962,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -961,7 +972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -971,7 +982,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -981,7 +992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -991,7 +1002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1033,7 +1044,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -1043,7 +1054,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -1053,7 +1064,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1063,7 +1074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1073,7 +1084,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1083,7 +1094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1093,33 +1104,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"	
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"antialias" 	"1"
 			}
@@ -1128,14 +1139,14 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"outline"	"1"
 				"antialias" 	"1"
 			}
 			"1"	[$X360]
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"outline"	"1"
 				"antialias" 	"1"
@@ -1269,7 +1280,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1278,7 +1289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1288,7 +1299,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -1298,7 +1309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1309,7 +1320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
@@ -1319,7 +1330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"36"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1329,7 +1340,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -1339,7 +1350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14" [!$OSX]
 				"tall"		"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1352,7 +1363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1362,7 +1373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1372,7 +1383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -1382,7 +1393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -1392,7 +1403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -1402,7 +1413,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -1413,31 +1424,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"44"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"72"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"80"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"100"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"180"
 				"antialias" "1"
 			}
@@ -1447,7 +1458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1457,7 +1468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1468,7 +1479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1479,35 +1490,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
@@ -1518,7 +1529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -1529,7 +1540,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"antialias"		"1"
 				"dropshadow"	"1"
@@ -1540,7 +1551,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"range" 		"0x0000 0x00FF"
 				"antialias"		"1"
@@ -1551,7 +1562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"antialias"		"1"
 			}
@@ -1560,7 +1571,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -1570,7 +1581,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -1581,7 +1592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1591,7 +1602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1602,7 +1613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"additive"	"0"
@@ -1614,7 +1625,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"32"
 				"tall_lodef"		"28"
 				"antialias" "1"
@@ -1624,7 +1635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -1633,7 +1644,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"26"
 				"antialias" "1"
 			}
@@ -1642,7 +1653,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1651,7 +1662,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1660,7 +1671,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -1669,7 +1680,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1678,7 +1689,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1687,7 +1698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1696,7 +1707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -1706,7 +1717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -1716,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1726,7 +1737,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1736,7 +1747,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -1746,19 +1757,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -1768,7 +1779,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -1778,7 +1789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1788,7 +1799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -1798,7 +1809,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1808,7 +1819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1818,7 +1829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1829,7 +1840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1839,7 +1850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"blur"		"3"
 				"additive"	"1"
@@ -1851,7 +1862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MuseoSansCyrl-500"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -4182,8 +4193,8 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"alert_rect"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -4453,6 +4464,245 @@ Scheme
 			}
 		}
 
+		DbButton
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorder"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorder"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorder"
+					"offset" "1 1"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorder"
+					"offset" "1 1"
+				}
+			}
+		}
+		DbButtonHover
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorderHover"
+					"offset" "1 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorderHover"
+					"offset" "1 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorderHover"
+					"offset" "1 1"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcButBorderHover"
+					"offset" "1 1"
+				}
+			}
+		}
+		DbPanel
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "DcBlueDark"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcBlueDark"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DcBlueDark"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "DcBlueDark"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "DcBlueDark"
+					"offset" "4 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "DcBlueDark"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcBlueDark"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DcBlueDark"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "DcBlueDark"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "DcBlueDark"
+					"offset" "4 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "DcBlueDark"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcBlueDark"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DcBlueDark"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "DcBlueDark"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "DcBlueDark"
+					"offset" "4 1"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "DcBlueDark"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "DcBlueDark"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "DcBlueDark"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "DcBlueDark"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "DcBlueDark"
+					"offset" "4 1"
+				}
+			}
+		}
+		DbBlock1
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"115 115 115 255"
+			"image"	"backpack_rect_color"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"	
+		}
 		SteamWorkshopBorder
 		{
 			"inset" "0 0 1 1"
@@ -4695,8 +4945,8 @@ Scheme
 		}
 		"13" 
 		{
-			"font" "resource/MuseoSansCyrl-500.otf"
-			"name" "MuseoSansCyrl-500"
+			"font" "resource/FuturaStd-Medium.otf"
+			"name" "FuturaStd-Medium"
 		}
 		}
 	}
