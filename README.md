@@ -1,11 +1,14 @@
-hud
-===
+Vabehud
+------------------
 
-Personally modified OMP hud
+
 
 Pictures of the hud: 
 Buffed HP & low ammo (both pulsing), and control points - http://i.imgur.com/hhgJec8.jpg
 Low HP - http://i.imgur.com/MYiUC4m.jpg
-6v6 scoreboard - http://i.imgur.com/h2yR4bL.jpg
-Capturing - http://i.imgur.com/f4qdvc6.png
+Scoreboard - http://i.imgur.com/bdVuJzj.jpg
 Tiny map timer - http://i.imgur.com/qj4wg3v.jpg
+In-game menu and server list - http://i.imgur.com/3hKh0Sm.png
+Advanced Options - http://i.imgur.com/wARlQ3I.png
+In.game trade notification - http://i.imgur.com/UrJnN8j.jpg
+Stats - http://i.imgur.com/sKcp5wY.jpg
